@@ -35,6 +35,14 @@
          from UMTS data icon on devices -->
     <bool name="config_hspa_data_distinguishable">true</bool>
 
+    <!-- Allow rounded corners in picture-in-picture mode -->
+    <bool name="config_pipEnableRoundCorner">true</bool>
+    <dimen name="corner_size">32.0dip</dimen>
+    <dimen name="pip_corner_radius">32.0dip</dimen>
+    <dimen name="control_corner_radius">32.0dip</dimen>
+    <dimen name="notification_shadow_radius">32.0dip</dimen>
+    <dimen name="rect_button_radius">32.0dip</dimen>
+
     <!-- SystemUI Plugins that can be loaded on user builds. -->
     <string-array name="config_pluginWhitelist" translatable="false">
         <item>com.android.systemui</item>

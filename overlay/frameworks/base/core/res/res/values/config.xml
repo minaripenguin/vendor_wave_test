@@ -89,10 +89,21 @@
     <integer name="config_autoPowerModeThresholdAngle">45</integer>
 
     <!-- Set up those curves -->
-    <dimen name="config_dialogCornerRadius">12.0dip</dimen>
-    <dimen name="config_buttonCornerRadius">6.0dip</dimen>
+    <dimen name="config_dialogCornerRadius">32.0dip</dimen>
+    <dimen name="config_buttonCornerRadius">32.0dip</dimen>
     <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
+    <dimen name="control_corner_material">32.0dip</dimen>
+    <dimen name="progress_bar_corner_material">32.0dip</dimen>
+    <dimen name="subtitle_corner_radius">32.0dip</dimen>
+    <dimen name="subtitle_shadow_radius">32.0dip</dimen>
+    <dimen name="dialog_corner_radius">32.0dip</dimen>
+    <dimen name="chooser_corner_radius">32.0dip</dimen>
+    <dimen name="default_magnifier_corner_radius">32.0dip</dimen>
+    <dimen name="tooltip_corner_radius">32.0dip</dimen>
 
+    <!-- Corner radius for bottom sheet system dialogs -->
+    <dimen name="config_bottomDialogCornerRadius">32.0dip</dimen>
+    
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
 
