@@ -21,8 +21,8 @@
 #
 
 # WaveOS 4.x - Android 11
-PLATFORM_WAVE_VERSION := 4.8.1
-PLATFORM_WAVE_FLAVOUR := Rasmalai
+PLATFORM_WAVE_VERSION := 4.9
+PLATFORM_WAVE_FLAVOUR := Samosa
 
 # Output target zip name
 ifneq ($(VANILLA_BUILD),true)
